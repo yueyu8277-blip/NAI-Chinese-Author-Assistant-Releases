@@ -127,6 +127,12 @@
 
 不会。洁珐只提供本地 Tag 推荐，不会自动登录 NovelAI、填写官网、点击生成或消耗点数。
 
+## 语义理解盲测 Demo
+
+可以先体验[洁珐 vs DS 语义检索盲测](demos/jiefa-ds-blind-test.html)，或直接打开[在线 Demo](https://yueyu8277-blip.github.io/NAI-Chinese-Author-Assistant-Releases/demos/jiefa-ds-blind-test.html)。这里的 DS 是“某tag 搜索工具”的简称，用于代表另一套基于现有 Tag 的检索结果。Demo 会隐藏两套结果的来源，让体验者先根据当前句子和 Tag 列表的贴合程度进行判断，再在完成后揭示答案。
+
+盲测案例使用匿名化的短句和预先准备的结果，不会调用本机应用，也不会上传输入内容。结果只用于帮助理解洁珐的工作方式，不应视为对所有文本的准确率承诺。
+
 ## 使用建议
 
 把洁珐当作“语义查词和灵感补全工具”，而不是自动提示词生成器，通常能得到更稳定的结果：
