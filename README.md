@@ -33,6 +33,12 @@
 
 详细说明、使用示例、隐私边界、性能机制和常见问题请参阅：[《洁珐详细介绍》](docs/jiefa.md)。
 
+### 洁珐语义理解盲测 Demo
+
+如果想先了解洁珐如何从中文描述中整理 Tag，可以打开：[洁珐 vs DS 语义检索盲测](docs/demos/jiefa-ds-blind-test.html)，也可以直接使用：[在线体验盲测 Demo](https://yueyu8277-blip.github.io/NAI-Chinese-Author-Assistant-Releases/demos/jiefa-ds-blind-test.html)。
+
+Demo 中的 DS 是“某tag 搜索工具”的简称。测试会随机抽取 10 个匿名化案例，先隐藏两套结果的来源，再由体验者根据 Tag 与句子的贴合程度进行选择；完成后才显示来源。该 Demo 用于展示交互方式和典型使用场景，不代表总体准确率，也不连接本机洁珐服务或上传输入内容。
+
 ## 下载与安装
 
 请在仓库右侧的 **Releases** 页面下载与设备匹配的安装包。不要同时安装两个 macOS 架构版本。
